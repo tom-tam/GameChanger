@@ -173,9 +173,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Ball.cs" />
+    <Compile Include="Models\Break.cs" />
+    <Compile Include="Models\Enums\Colour.cs" />
+    <Compile Include="Models\Enums\GameType.cs" />
+    <Compile Include="Models\Match.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\PlayerScore.cs" />
+    <Compile Include="Models\Pot.cs" />
+    <Compile Include="Models\Template files\AccountViewModels.cs" />
+    <Compile Include="Models\Template files\IdentityModels.cs" />
+    <Compile Include="Models\Template files\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
