@@ -7,15 +7,10 @@ namespace GameChanger.Models
 {
     public class Match
     {
-        public GameType GameType { get; set; }
-        public PlayerScore Score1 { get; set; }
-        public PlayerScore Score2 { get; set; }
-
-        internal PlayerScore GetOtherPlayerScore(PlayerScore scoreToIgnore)
-        {
-            return Score1 == scoreToIgnore
-                ? Score2
-                : Score1;
-        }
+        public int BestOf { get; set; }
+        public Player Player1 { get; set; }
+        public Player Player2 { get; set; }
+        public Player Winner { get; set; }
+        public ICollection<Frame> Frames { get; set; }
     }
 }

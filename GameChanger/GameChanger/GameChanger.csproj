@@ -176,7 +176,7 @@
     <Compile Include="Models\Ball.cs" />
     <Compile Include="Models\Break.cs" />
     <Compile Include="Models\Enums\Colour.cs" />
-    <Compile Include="Models\Enums\GameType.cs" />
+    <Compile Include="Models\Frame.cs" />
     <Compile Include="Models\Match.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerScore.cs" />
